@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Química Sin Barreras</title>
+  <meta name="description" content="Plataforma educativa para fortalecer el aprendizaje práctico de la química mediante simuladores virtuales, enfocada en comunidades con limitaciones tecnológicas." />
+  <link rel="icon" href="./image/logo.png" />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fuente -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+  <nav class="navbar backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+      <a href="#inicio" class="flex items-center gap-3">
+        <img src="./image/logo.png" alt="Logo Química Sin Barreras" class="w-12 h-12 object-contain" />
+        <div>
+          <p class="text-sm uppercase tracking-[0.25em] text-emerald-300">Química Sin Barreras</p>
+          <span class="text-lg font-semibold">Educación científica accesible</span>
+        </div>
+      </a>
+
+      <div class="flex flex-wrap items-center justify-center gap-4 text-sm text-slate-100 md:justify-end">
+        <a href="#inicio" class="nav-link">Inicio</a>
+        <a href="#problematica" class="nav-link">Problemática</a>
+        <a href="#contexto" class="nav-link">Contexto</a>
+        <a href="#simuladores" class="nav-link nav-button">Simuladores</a>
+        <a href="#impacto" class="nav-link">Impacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="inicio" class="hero relative overflow-hidden">
+      <div class="hero-overlay"></div>
+      <div class="max-w-6xl mx-auto px-6 py-28 text-center relative z-10">
+        <span class="badge">Plataforma educativa con enfoque social</span>
+        <h1 class="hero-title">Aprende química desde tu comunidad con simuladores virtuales accesibles</h1>
+        <p class="hero-copy mx-auto mt-6 max-w-3xl">
+          Un espacio diseñado para estudiantes y docentes que enfrentan limitaciones de infraestructura y acceso a laboratorios físicos, fortaleciendo el aprendizaje científico con tecnología y esperanza.
+        </p>
+
+        <div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+          <a href="#simuladores" class="btn-primary">Ver simuladores</a>
+          <a href="#problematica" class="btn-secondary">Conoce el proyecto</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="problematica" class="section-base">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="section-header text-center">
+          <span class="section-badge">Problemática educativa</span>
+          <h2 class="section-title">Cerrando brechas en el aprendizaje práctico de la química</h2>
+          <p class="section-text">
+            Muchas comunidades enfrentan limitaciones en infraestructura, acceso a laboratorios y recursos tecnológicos. Esta plataforma propone una solución amable, profesional y centrada en el estudiante.
+          </p>
+        </div>
+
+        <div class="grid gap-6 md:grid-cols-3 mt-12">
+          <article class="feature-card">
+            <h3>Infraestructura limitada</h3>
+            <p>Escuelas con aulas y laboratorios reducidos necesitan soluciones virtuales que permitan seguir aprendiendo con calidad.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Acceso desigual</h3>
+            <p>Estudiantes con conectividad inestable o acceso limitado a equipos requieren experiencias de aprendizaje flexibles y seguras.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Aprendizaje práctico</h3>
+            <p>Los simuladores permiten vivenciar procesos científicos sin riesgo, fortaleciendo la comprensión de conceptos clave.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contexto" class="section-context relative overflow-hidden">
+      <div class="section-context-overlay"></div>
+      <div class="max-w-6xl mx-auto px-6 py-24 relative z-10 text-white">
+        <div class="grid gap-10 lg:grid-cols-2 items-center">
+          <div>
+            <span class="section-badge text-emerald-200">Contexto social</span>
+            <h2 class="section-title text-white">Educación como herramienta para una comunidad más incluyente</h2>
+            <p class="section-text text-slate-100 max-w-2xl">
+              El proyecto muestra cómo la tecnología y los simuladores virtuales pueden apoyar a estudiantes con limitaciones en infraestructura, ofreciendo una experiencia educativa digna, humana y esperanzadora.
+            </p>
+          </div>
+          <div class="context-grid grid gap-4">
+            <div class="context-card">
+              <h3>Comunidades con menos recursos</h3>
+              <p>Se promueve el aprendizaje científico sin depender únicamente de laboratorios físicos.</p>
+            </div>
+            <div class="context-card">
+              <h3>Aprendizaje inclusivo</h3>
+              <p>Se contempla la diversidad de ritmos de aprendizaje y las brechas tecnológicas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="beneficios" class="section-base bg-slate-100">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="section-header text-center">
+          <span class="section-badge">Beneficios</span>
+          <h2 class="section-title">Laboratorios virtuales que apoyan el aprendizaje científico</h2>
+          <p class="section-text">
+            Los recursos digitales permiten a estudiantes explorar conceptos de química con autonomía y seguridad, incluso cuando el acceso a laboratorios físicos es restringido.
+          </p>
+        </div>
+
+        <div class="grid gap-6 mt-12 md:grid-cols-4">
+          <article class="info-card">
+            <strong>Práctica segura</strong>
+            <p>Los simuladores ofrecen experiencias reales sin riesgo químico.</p>
+          </article>
+          <article class="info-card">
+            <strong>Acceso remoto</strong>
+            <p>Estudiantes pueden aprender desde el aula, un centro comunitario o su hogar.</p>
+          </article>
+          <article class="info-card">
+            <strong>Innovación educativa</strong>
+            <p>Herramientas interactivas amplían la enseñanza y fortalecen el interés científico.</p>
+          </article>
+          <article class="info-card">
+            <strong>Inclusión</strong>
+            <p>Los recursos se adaptan a comunidades con distintos niveles de infraestructura.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="simuladores" class="section-base">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="section-header text-center">
+          <span class="section-badge">Simuladores</span>
+          <h2 class="section-title">Experimenta conceptos químicos con herramientas interactivas</h2>
+          <p class="section-text">
+            Un conjunto de simuladores organizados por categorías para facilitar el acceso a contenidos prácticos y significativos.
+          </p>
+        </div>
+
+        <div class="mt-12 grid gap-6 xl:grid-cols-3">
+          <article class="sim-card">
+            <h3>Química del agua</h3>
+            <p>Conceptos de densidad, molaridad y concentración aplicados al estudio del agua y sus soluciones.</p>
+            <div class="mt-6 grid gap-4">
+              <a class="sim-link" href="https://phet.colorado.edu/es/simulations/density" target="_blank">Densidad de la materia</a>
+              <a class="sim-link" href="https://phet.colorado.edu/es/simulations/concentration" target="_blank">Concentración</a>
+              <a class="sim-link" href="https://phet.colorado.edu/es/simulations/molarity" target="_blank">Molaridad</a>
+            </div>
+          </article>
+          <article class="sim-card">
+            <h3>Reacciones y energía</h3>
+            <p>Explora transferencia de energía, reacciones químicas y cambios de estado de manera intuitiva.</p>
+            <div class="mt-6 grid gap-4">
+              <a class="sim-link" href="https://phet.colorado.edu/es/simulations/energy-forms-and-changes" target="_blank">Formas y cambios de energía</a>
+              <a class="sim-link" href="https://phet.colorado.edu/es/simulations/ph-scale-basics" target="_blank">Escala de pH</a>
+              <a class="sim-link" href="https://phet.colorado.edu/es/simulations/states-of-matter" target="_blank">Estados de la Materia</a>
+            </div>
+          </article>
+          <article class="sim-card">
+            <h3>Estructura y modelo atómico</h3>
+            <p>Comprende la construcción del átomo y cómo las partículas subatómicas determinan las propiedades de la materia.</p>
+            <div class="mt-6 grid gap-4">
+              <a class="sim-link" href="https://phet.colorado.edu/es/simulations/build-an-atom" target="_blank">Construye un átomo</a>
+              <a class="sim-link" href="https://phet.colorado.edu/es/simulations/density" target="_blank">Propiedades de la materia</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="objetivos" class="section-base bg-slate-100">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="section-header text-center">
+          <span class="section-badge">Objetivos del proyecto</span>
+          <h2 class="section-title">Una estrategia pedagógica para fortalecer competencias científicas</h2>
+        </div>
+
+        <div class="mt-12 grid gap-6 md:grid-cols-3">
+          <article class="goal-card">
+            <h3>Promover el acceso</h3>
+            <p>Brindar herramientas accesibles a estudiantes con limitaciones de infraestructura.</p>
+          </article>
+          <article class="goal-card">
+            <h3>Fomentar la práctica</h3>
+            <p>Generar experiencias experimentales seguras que complementen el aprendizaje teórico.</p>
+          </article>
+          <article class="goal-card">
+            <h3>Apoyar la inclusión</h3>
+            <p>Construir un entorno donde la tecnología acerque la ciencia a más comunidades.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="impacto" class="section-base">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="section-header text-center">
+          <span class="section-badge">Impacto esperado</span>
+          <h2 class="section-title">Resultados positivos para estudiantes y docentes</h2>
+          <p class="section-text">
+            El proyecto busca fortalecer la confianza científica, mejorar el acceso a contenidos prácticos y fomentar el interés por la química en contextos con desafíos educativos.
+          </p>
+        </div>
+
+        <div class="mt-12 grid gap-6 md:grid-cols-3">
+          <article class="impact-card">
+            <h3>Mayor confianza</h3>
+            <p>Los estudiantes experimentan y comprenden conceptos sin la barrera del laboratorio físico.</p>
+          </article>
+          <article class="impact-card">
+            <h3>Docencia apoyada</h3>
+            <p>Los docentes cuentan con recursos prácticos que complementan sus clases.</p>
+          </article>
+          <article class="impact-card">
+            <h3>Comunidades fortalecidas</h3>
+            <p>La educación se convierte en un puente hacia mejores oportunidades científicas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="recursos" class="section-base bg-slate-100">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="section-header text-center">
+          <span class="section-badge">Recursos educativos</span>
+          <h2 class="section-title">Materiales y acompañamiento para el aprendizaje activo</h2>
+          <p class="section-text">
+            Textos, enlaces y actividades diseñadas para reforzar el uso de simuladores en el aula y en entornos con acceso limitado a laboratorios.</p>
+        </div>
+
+        <div class="mt-12 grid gap-6 lg:grid-cols-3">
+          <article class="resource-card">
+            <h3>Guías didácticas</h3>
+            <p>Documentos claros para docentes y estudiantes que explican cada simulador y su aplicación en el aula.</p>
+          </article>
+          <article class="resource-card">
+            <h3>Actividades prácticas</h3>
+            <p>Propuestas de ejercicios que conectan simuladores con situaciones reales y aprendizajes significativos.</p>
+          </article>
+          <article class="resource-card">
+            <h3>Apoyo comunitario</h3>
+            <p>Recursos pensados para entornos con acceso limitado, priorizando inclusión y seguimiento pedagógico.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="max-w-7xl mx-auto px-6 py-12 grid gap-8 md:grid-cols-2 items-center">
+      <div class="flex flex-col gap-4">
+        <div class="flex items-center gap-4">
+          <img src="./image/colegio.png" alt="Logo Institución Educativa Pica Pica Viejo" class="w-16 h-16 object-contain rounded-2xl border border-slate-200 bg-white p-2" />
+          <div>
+            <p class="footer-title">Institución Educativa Pica Pica Viejo</p>
+            <p class="footer-copy">Aliada de Química Sin Barreras para llevar ciencia e inclusión a los estudiantes de la región.</p>
+          </div>
+        </div>
+        <p class="footer-copy">Una plataforma educativa para fortalecer la ciencia en contextos de infraestructura limitada.</p>
+      </div>
+      <div class="flex flex-col gap-3 sm:items-end">
+        <a href="#inicio" class="footer-link">Inicio</a>
+        <a href="#simuladores" class="footer-link">Simuladores</a>
+        <a href="#impacto" class="footer-link">Impacto</a>
+      </div>
+    </div>
+    <div class="border-t border-slate-700/40 pt-6 text-center text-slate-400">
+      © 2026 Química Sin Barreras · Educación, tecnología y esperanza.
+    </div>
+  </footer>
+</body>
+
+</html>
